@@ -42,7 +42,7 @@ local booths = { ["1"] = "72, 3, 36", ["2"] = "83, 3, 161", ["3"] = "11, 3, 36",
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/v1peer/plsdonatefarmarchive/main/main.lua'))()")
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Ruzzki/423842342/main/beggermaybeidk.lua'))()")
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Ruzzki/423842342/main/uineed")()
 
 local win = Flux:Window("PLS DONATE", "by tzechco", Color3.fromRGB(0, 128, 0), Enum.KeyCode.RightShift)
